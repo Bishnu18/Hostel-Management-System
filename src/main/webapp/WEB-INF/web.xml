@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <welcome-file-list>
+    <welcome-file>/Student-form.jsp</welcome-file>
+    <welcome-file>Student-list.jsp</welcome-file>
+  </welcome-file-list>
+  <jsp-config>
+        <taglib>
+            <taglib-uri>http://java.sun.com/jsp/jstl/core</taglib-uri>
+            <taglib-location>/WEB-INF/library/JavaServer Pages Standard Tag Library-1.2.jar</taglib-location>
+        </taglib>
+    </jsp-config>
+  <display-name>HostelManagement System</display-name>
+  <error-page>
+  <exception-type>java.lang.Exception</exception-type>
+  <location>/Error.jsp</location>
+  
+  </error-page>
+</web-app>
